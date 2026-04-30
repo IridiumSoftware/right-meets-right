@@ -1,0 +1,23 @@
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+
+# Lean / Lake build artefacts
+**/.lake/
+**/build/
+
+# Haskell build artefacts
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+
+# macOS metadata
+.DS_Store
