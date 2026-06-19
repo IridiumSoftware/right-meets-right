@@ -72,7 +72,7 @@ together imply the closure equation (T) — proved as
 
 Paper convention vs Lean convention:
 
-  paper (RTL `∘`):   R_αβ ∘ R_βγ = R_αγ                      (cocycle, C)
+  paper (RTL `∘`):   R_βγ ∘ R_αβ = R_αγ                      (cocycle, C)
   Lean (LTR `≫`):   R α β ≫ R β γ = R α γ                   (cocycle, C)
 
 Both are the same equation under their respective composition
